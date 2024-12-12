@@ -222,7 +222,7 @@ def registrar_servidor():
     try:
         # IP do servidor de registro
         ip_registro_de_servicos = "https://registro-de-servicos.up.railway.app"  # Endereço do serviço de registro
-        ip_servidor = "https://servidor-matrix.up.railway.app"
+        ip_servidor = "https://servidor-matrix3.up.railway.app"
         threads = threading.active_count()  # Número de threads ativas no servidor
 
         # Requisição POST para registrar o servidor no servidor de registro
